@@ -1,6 +1,7 @@
+/* Nav bar */
 body {
     background-color: #141414;
-    color: #ffffff;
+    color: #fdfdfd;
     font-family: 'Arial', sans-serif;
 }
 
@@ -12,52 +13,89 @@ body {
     background-color: #ffffff;
 }
 
-h2, h4 {
-    font-weight: bold;
+.dropdown-menu-black {
+    background-color: #000000; 
+    color: #ffffff; 
 }
 
-.row img {
-    max-width: 100%;
-    transition: transform 0.3s;
-    border-radius: 5px; 
-    margin-bottom: 1rem;
-}
+/* bottoni tv show */
 
-.row img:hover {
-    transform: scale(1.1);
+.custom-select {
+    background-color: black;
+    color: #fdfdfd;
+    border-radius: 0;
+    border: 1px solid #fdfdfd;
+  }
+  
+  .custom-select:hover {
+    border: 1px solid white;
+    opacity: 0.8;
     cursor: pointer;
-}
-
-.dropdown {
-    display: inline-block;
-    margin-left: 1rem;
-}
-
-.container {
-    padding: 1rem 5%;
-}
-
-.dropdown-menu {
+  }
+  
+  .btn-show {
+    padding: 0.3rem 0.8rem;
     background-color: #141414;
-    border: none;
-    color: #ffffff;
-}
-
-.dropdown-item {
-    color: #ffffff;
-    transition: background-color 0.3s;
-}
-
-.dropdown-item:hover {
-    background-color: #303030;
-}
-
-.btn-secondary {
-    background-color: #303030;
-    border: none;
-    transition: background-color 0.3s;
-}
-
-.btn-secondary:hover {
-    background-color: #505050;
-}
+    color: #a0a0a0;
+    border: 1px solid #282828;
+  }
+  
+  .btn-show:hover {
+    color: #fdfdfd;
+    border: 1px solid #fdfdfd;
+  }
+  
+  .custom-padding-container {
+    padding-inline: 3.7rem;
+  }
+  
+  /* serie tv */
+  
+  section img {
+    width: 100%;
+    transition: all 0.5s ease-in;
+  }
+  
+  section img:hover {
+    transform: scale(1.10);
+    z-index: 1;
+  }
+  
+  /* footer  */
+  
+  footer {
+    max-width: 700px;
+    margin-inline: auto;
+  }
+  
+  footer .social {
+    color: #a0a0a0;
+  }
+  
+  footer .row a {
+    font-size: 15px;
+    text-decoration: none;
+    color: #a0a0a0;
+  }
+  
+  footer a:hover,
+  footer i:hover {
+    color: #fdfdfd;
+  }
+  
+  .general-btn {
+    background-color: #141414;
+    color: #fdfdfd;
+    border: 2px solid #282828;
+    padding: 0.5rem 0.5rem;
+    font-size: 15px;
+  }
+  
+  .general-btn:hover {
+    border: 1px solid #fdfdfd;
+  }
+  
+  footer p:last-child {
+    font-size: 10px;
+    color: #a0a0a0;
+  }
