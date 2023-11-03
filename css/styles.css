@@ -111,3 +111,12 @@ body {
     font-size: 10px;
     color: #a0a0a0;
   }
+  /* edit profile */
+  .position-relative img {
+    width: 100px; 
+    height: auto; 
+  }
+  
+  .pen-icon {
+    left: 0; 
+  }
